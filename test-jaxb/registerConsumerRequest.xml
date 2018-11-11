@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Message>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>txwKx23hmioxOgn0Zt8ir1JtqYA</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>QSeHOanYFUm2eRvXGhEDuqqNYG5AxsGF4kI8pWHiveOBq1Yw9NlMXtcaBq70m4u9tXfS2Cpf5+kICbFV+jcFXY4sHZneETyE7PeY0NeLSMHOb0Mt1/KA9h6dPX2JvO9lh68zx4rFLHMKkxes6n1PNfsQfz7dM8Fgqpk//5gS1sc=</SignatureValue>
+    </Signature>
+    <Registration.Consumer.Register.Request>
+        <Data>
+            <Header xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="registerConsumerHeader">
+                <Version>1.00</Version>
+                <ClientId>30dd089a-1087-45f3-9168-665b2fc84e21</ClientId>
+                <RequestId>5ba08a02-4401-4ec5-9bf3-54215bbb5fb7</RequestId>
+            </Header>
+            <Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="registerConsumerBody">
+                <Scheme>Schema A</Scheme>
+                <Msisdn>00200023400000</Msisdn>
+                <Name>Khaled Abusair</Name>
+                <City>Amman</City>
+                <Address>Building / Street / District</Address>
+                <Identifier>
+                    <CommercialRegNo>123</CommercialRegNo>
+                </Identifier>
+            </Body>
+        </Data>
+    </Registration.Consumer.Register.Request>
+</Message>
